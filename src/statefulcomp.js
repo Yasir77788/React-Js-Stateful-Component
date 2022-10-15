@@ -9,7 +9,7 @@ class StatefulComp extends Component{
 
     handleclick(){
         this.setState({
-            f:"Yasirco-33"
+            firstname:"Yasirco-33"
         });
         this.state.firstname = "Yasirco-33";
         console.log(this.state.firstname);
